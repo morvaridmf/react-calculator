@@ -18,7 +18,7 @@ export default function App() {
   }
 
   const handleOperation = (text) => {
-    const operations = ["DEL", "AC", "-", "+", "/", "*"]
+    const operations = ["AC", "-", "+", "/", "*"]
     console.log(text)
     if (text == "AC") {
       setCalculationText("")
