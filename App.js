@@ -56,6 +56,7 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
+    width: 400,
     flex: 1,
 
   },
